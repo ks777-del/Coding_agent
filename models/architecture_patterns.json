@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "patterns": [
+    {
+      "name": "layered_architecture",
+      "tags": ["backend", "scalable", "clean-design"],
+      "when_to_use": "Medium to large applications with clear separation of concerns",
+      "structure": [
+        "presentation_layer",
+        "business_logic_layer",
+        "data_access_layer"
+      ],
+      "benefits": [
+        "scalability",
+        "testability",
+        "modularity"
+      ],
+      "anti_patterns": [
+        "god_object",
+        "tight_coupling"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "name": "event_driven_architecture",
+      "tags": ["async", "distributed", "scalable"],
+      "when_to_use": "Systems with high scalability or real-time events",
+      "core_components": [
+        "event_bus",
+        "event_handlers",
+        "message_queue"
+      ],
+      "benefits": [
+        "loose coupling",
+        "high scalability"
+      ],
+      "confidence": 0.92
+    }
+  ]
+}

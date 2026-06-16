@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "patterns": [
+    {
+      "name": "factory_pattern",
+      "language": "python",
+      "when_to_use": "When object creation logic is complex or conditional",
+      "example_hint": "Use factory functions instead of direct constructors",
+      "anti_patterns": ["overuse of inheritance"],
+      "confidence": 0.9
+    },
+    {
+      "name": "dependency_injection",
+      "language": "python",
+      "when_to_use": "When modules need decoupling for testing or flexibility",
+      "benefits": ["testability", "modularity"],
+      "confidence": 0.93
+    }
+  ]
+}

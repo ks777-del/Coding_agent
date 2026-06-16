@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "rules": [
+    {
+      "error_type": "NullReference",
+      "detection_signals": ["NoneType", "null", "undefined"],
+      "root_causes": [
+        "missing initialization",
+        "incorrect dependency injection"
+      ],
+      "fix_strategy": [
+        "add null guards",
+        "validate inputs early"
+      ],
+      "severity": "HIGH"
+    },
+    {
+      "error_type": "ImportError",
+      "detection_signals": ["ModuleNotFoundError"],
+      "fix_strategy": [
+        "verify module path",
+        "check circular imports"
+      ],
+      "severity": "MEDIUM"
+    }
+  ]
+}

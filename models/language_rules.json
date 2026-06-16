@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "languages": {
+    "python": {
+      "style": [
+        "use_type_hints",
+        "prefer_dataclasses",
+        "avoid_global_state"
+      ],
+      "best_practices": [
+        "keep_functions_small",
+        "separate_io_and_logic",
+        "use_logging_over_print"
+      ],
+      "anti_patterns": [
+        "wildcard_imports",
+        "deep_nesting"
+      ]
+    },
+    "javascript": {
+      "style": [
+        "use_const_and_let",
+        "avoid_var"
+      ],
+      "best_practices": [
+        "async_await_over_callbacks",
+        "modular_architecture"
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "rules": [
+    {
+      "type": "performance",
+      "rule": "avoid_nested_loops_when_possible",
+      "description": "Replace O(n²) loops with hash maps or indexing",
+      "impact": "HIGH",
+      "confidence": 0.9
+    },
+    {
+      "type": "memory",
+      "rule": "stream_large_files",
+      "description": "Do not load entire large files into memory",
+      "impact": "HIGH",
+      "confidence": 0.95
+    },
+    {
+      "type": "runtime",
+      "rule": "cache_repeated_computations",
+      "description": "Memoize expensive function calls",
+      "impact": "MEDIUM",
+      "confidence": 0.88
+    }
+  ]
+}

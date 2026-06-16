@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "frameworks": {
+    "fastapi": {
+      "type": "backend",
+      "strengths": [
+        "high performance",
+        "async support",
+        "type safety"
+      ],
+      "architecture_notes": [
+        "use dependency injection",
+        "separate routers and services"
+      ],
+      "common_pitfalls": [
+        "blocking async calls",
+        "overloaded main app file"
+      ]
+    },
+    "react": {
+      "type": "frontend",
+      "strengths": [
+        "component reusability",
+        "virtual DOM"
+      ],
+      "best_practices": [
+        "use hooks properly",
+        "avoid prop drilling"
+      ]
+    }
+  }
+}
